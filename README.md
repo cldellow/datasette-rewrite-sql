@@ -15,7 +15,18 @@ Install this plugin in the same environment as Datasette.
 
 ## Usage
 
-Usage instructions go here.
+Write a hook like:
+
+```python
+from datasette import hookimpl
+
+@hookimpl
+def rewrite_sql(sql):
+  if sql == 'select 123':
+    return 'select 234'
+
+  return sql
+```
 
 ## Development
 
