@@ -8,6 +8,7 @@
 Adds a rewrite_sql hook to Datasette.
 
 > **Warning**
+>
 > This hook is added by monkey-patching Datasette. YOLO, but also, govern yourself accordingly.
 
 ## Installation
