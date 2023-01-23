@@ -5,7 +5,10 @@
 [![Tests](https://github.com/cldellow/datasette-rewrite-sql/workflows/Test/badge.svg)](https://github.com/cldellow/datasette-rewrite-sql/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/cldellow/datasette-rewrite-sql/blob/main/LICENSE)
 
-Adds a rewrite_sql hook to Datasette
+Adds a rewrite_sql hook to Datasette.
+
+> **Warning**
+> This hook is added by monkey-patching Datasette. YOLO, but also, govern yourself accordingly.
 
 ## Installation
 
